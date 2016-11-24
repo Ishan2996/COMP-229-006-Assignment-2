@@ -190,8 +190,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assests\2786-aroma-bakery-cafe.jpg" />
     <Content Include="Assests\cakes-1.jpg" />
     <Content Include="Assests\dozenbakeshop.jpg" />
+    <Content Include="Assests\facebook.png" />
+    <Content Include="Assests\google.png" />
+    <Content Include="Assests\insta.gif" />
+    <Content Include="Assests\lin.png" />
     <Content Include="Assests\maxresdefault.jpg" />
     <Content Include="Assests\samsung_banner-980x280.jpg" />
     <Content Include="Content\App.css" />
@@ -214,6 +219,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\FontAwesome.otf" />

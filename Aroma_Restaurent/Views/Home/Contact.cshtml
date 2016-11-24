@@ -1,17 +1,57 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Contact Us";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<h2></h2>
+<h3></h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<div style="width:1000px; margin-left:auto; margin-right:auto;">
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-5">
+                <img src="~/Assests/2786-aroma-bakery-cafe.jpg" width="180" ; height="180" />
+                <h1 class="h1"><b>Contact Us</b></h1><br />
+                <h3><b>Aroma Bakery</b></h3><br />
+                <b>Address: 2 Invergordon Ave, Scarborough, Toronto, ON, M1M 2Y8</b><br />
+                <b>  Phone: (+1) 416-299-1174</b><br />
+                <address>
+                    <strong>E-Mail:</strong>   <a href="mailto:AromaBakery@gmail.com">AromaBakery@gmail.com</a><br />
+
+                </address>
+
+
+                <h4><b>Keep Connected  -  Visit Us </b></h4>
+                <a href="https://www.instagram.com/ishan_2996/">
+                    <img src="~/Assests/insta.gif" height="60" width="60" />
+                </a>
+                <a href="https://www.facebook.com/ishan.sharma.12914216">
+                    <img src="~/Assests/facebook.png" width="60" height="60" />
+                </a>
+                <a href="https://www.linkedin.com/in/ishan-sharma-75817568">
+                    <img src="~/Assests/lin.png" height="60" width="60" />
+                </a>
+                <a href="https://plus.google.com/u/0/116216111171065058519">
+                    <img src="~/Assests/google.png" height="60" width="60" />
+                </a>
+                <br />
+                <br />
+
+                <h4><b>Locate Us</b></h4>
+                <div id="map" style="width:100%;height:500px"></div>
+
+                <script>
+                    function myMap() {
+                        var mapCanvas = document.getElementById("map");
+                        var mapOptions = {
+                            center: new google.maps.LatLng(51.5, -0.2),
+                            zoom: 10
+                        }
+                        var map = new google.maps.Map(mapCanvas, mapOptions);
+                    }
+                </script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+            </div>
+        </div>
+    </div>
