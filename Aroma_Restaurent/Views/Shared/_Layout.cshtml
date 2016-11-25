@@ -23,14 +23,15 @@
                 @Html.ActionLink("Aroma Bakery", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav">                    
+                    <li><img src="~/Assests/vector_cake_food_logo.png" width="60" height="45"/></li>
                     <li></li>
                     <li><a href="@Url.Action("Index", "Home")"><i class="fa fa-home fa-lg" aria-hidden="true"></i><b> Home</b></a></li>
                     
                     <li><a href="@Url.Action("Contact", "Home")"><i class="fa fa-phone fa-lg" aria-hidden="true"></i><b> Contact</b></a></li> 
 
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">                    
                     <li><a href="@Url.Action("Index", "Cakes")"><i class="fa fa-birthday-cake" aria-hidden="true"></i> <b>Cakes</b></a></li>
                     <li><a href="@Url.Action("Index", "Pastries")"><i class="fa fa-cutlery" aria-hidden="true"></i><b> Pastries</b></a></li>
                     <li><a href="@Url.Action("Index", "Cookies")"><i class="fa fa-coffee" aria-hidden="true"></i> <b>Cookies</b></a></li>
@@ -47,7 +48,7 @@
         <footer role="contentinfo">
             <nav class="navbar navbar-light navbar-fixed-bottom" style="background-color:#000000; color:deeppink">
                 <div class="container">
-                    <marquee id="marquee_speed" scrollamount="4" onmouseover=this.stop(); onmouseout=this.start(); scrolldelay="40"> <h3>&copy; <b>Ishan Sharma | Solanky Thareja | Fall-2016-COMP229-006 | Assignment-2</b> </h3>
+                    <marquee id="marquee_speed" scrollamount="4" onmouseover=this.stop(); onmouseout=this.start(); scrolldelay="40"> <h3>&copy; <img src="~/Assests/vector_cake_food_logo.png" width="50" height="45" /><b>Aroma Bakery Ltd. | Toronto | Ontario | Canada</b> </h3>
                 </div>
             </nav>
             </footer>

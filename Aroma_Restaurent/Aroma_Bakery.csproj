@@ -191,14 +191,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assests\2786-aroma-bakery-cafe.jpg" />
+    <Content Include="Assests\996196_rum-balls-230.jpg" />
+    <Content Include="Assests\amaretti-230_000.jpg" />
+    <Content Include="Assests\applepie.jpg" />
+    <Content Include="Assests\banbury.jpg" />
+    <Content Include="Assests\biscotti-crosshatch-230.jpg" />
     <Content Include="Assests\cakes-1.jpg" />
+    <Content Include="Assests\cherrypie.jpg" />
+    <Content Include="Assests\choco.jpg" />
+    <Content Include="Assests\cornish.jpeg" />
+    <Content Include="Assests\creamhorn.jpg" />
     <Content Include="Assests\dozenbakeshop.jpg" />
     <Content Include="Assests\facebook.png" />
+    <Content Include="Assests\ginger_snaps-230_000.jpg" />
     <Content Include="Assests\google.png" />
     <Content Include="Assests\insta.gif" />
     <Content Include="Assests\lin.png" />
+    <Content Include="Assests\map-close.jpg" />
     <Content Include="Assests\maxresdefault.jpg" />
+    <Content Include="Assests\pineapple.jpg" />
+    <Content Include="Assests\plum.jpg" />
     <Content Include="Assests\samsung_banner-980x280.jpg" />
+    <Content Include="Assests\strawberry.jpeg" />
+    <Content Include="Assests\toffee-bars-230.jpg" />
+    <Content Include="Assests\vanilla.jpg" />
+    <Content Include="Assests\vector_cake_food_logo.png" />
     <Content Include="Content\App.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
